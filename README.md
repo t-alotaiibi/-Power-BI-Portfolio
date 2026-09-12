@@ -46,7 +46,7 @@ A Power BI dashboard designed to analyze sales performance, products, sales repr
 
 ### 🔗 View Interactive Dashboard
 
-[Open Sales Analysis Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYjQ4Yzg4YzUtMDc3Zi00Y2M4LWI3ZDQtN2FhZTk4ZjFmMzdmIiwidCI6Ijc5MTAyMWJmLWYwZTUtNGQxMi1hYjJiLTg1OThmNzI4OTYxMiJ9)
+[Open Sales Analysis Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYjYyYTk4ZTUtZDdhNi00NmNhLTlhMWQtZWExNGM2OTkyOTE1IiwidCI6Ijc5MTAyMWJmLWYwZTUtNGQxMi1hYjJiLTg1OThmNzI4OTYxMiJ9)
 
 ---
 
