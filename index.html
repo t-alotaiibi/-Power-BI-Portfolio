@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Turki Aldalbahi | Power BI Portfolio</title>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0b1120;
+    color: #f8fafc;
+    line-height: 1.6;
+}
+
+/* NAVIGATION */
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: rgba(11, 17, 32, 0.95);
+    border-bottom: 1px solid #1e293b;
+    backdrop-filter: blur(10px);
+}
+
+.nav-container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 18px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-links a:hover {
+    color: #60a5fa;
+}
+
+/* HERO */
+
+.hero {
+    padding: 100px 25px 90px;
+    text-align: center;
+    background:
+        radial-gradient(circle at top, #172554 0%, #0b1120 55%);
+}
+
+.hero-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.hero h1 {
+    font-size: 58px;
+    margin-bottom: 15px;
+    letter-spacing: -1px;
+}
+
+.hero h2 {
+    font-size: 22px;
+    font-weight: normal;
+    color: #60a5fa;
+    margin-bottom: 25px;
+}
+
+.hero p {
+    max-width: 780px;
+    margin: auto;
+    color: #cbd5e1;
+    font-size: 18px;
+}
+
+.hero-buttons {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.button {
+    display: inline-block;
+    padding: 13px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.primary-button {
+    background: #2563eb;
+    color: white;
+}
+
+.secondary-button {
+    border: 1px solid #475569;
+    color: white;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+/* GENERAL */
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 25px;
+}
+
+.section {
+    padding: 75px 0;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 50px;
+}
+
+.section-subtitle {
+    text-align: center;
+    color: #94a3b8;
+    margin-top: -30px;
+    margin-bottom: 45px;
+}
+
+/* ABOUT */
+
+.about {
+    background: #0f172a;
+}
+
+.about-box {
+    max-width: 850px;
+    margin: auto;
+    text-align: center;
+}
+
+.about-box p {
+    color: #cbd5e1;
+    font-size: 17px;
+}
+
+/* PROJECTS */
+
+.project {
+    background: #111c31;
+    border: 1px solid #263449;
+    border-radius: 18px;
+    padding: 30px;
+    margin-bottom: 45px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.18);
+}
+
+.project-header {
+    margin-bottom: 20px;
+}
+
+.project-number {
+    color: #60a5fa;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.project h3 {
+    font-size: 28px;
+    margin: 5px 0 12px;
+}
+
+.project-description {
+    color: #cbd5e1;
+    max-width: 850px;
+}
+
+/* IMAGE GALLERY */
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    margin: 28px 0;
+}
+
+.gallery img {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+    border: 1px solid #334155;
+    transition: 0.25s;
+}
+
+.gallery img:hover {
+    transform: scale(1.015);
+}
+
+/* FEATURES */
+
+.features-title {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px 25px;
+    margin-bottom: 25px;
+}
+
+.features div {
+    color: #cbd5e1;
+    font-size: 15px;
+}
+
+.features div::before {
+    content: "✓";
+    color: #60a5fa;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+/* TOOLS */
+
+.tools {
+    color: #cbd5e1;
+    margin-bottom: 25px;
+}
+
+.tools strong {
+    color: white;
+}
+
+/* SKILLS */
+
+.skills-section {
+    background: #0f172a;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.skill {
+    padding: 11px 18px;
+    border: 1px solid #334155;
+    border-radius: 25px;
+    background: #111c31;
+    color: #e2e8f0;
+    font-size: 14px;
+}
+
+/* CONTACT */
+
+.contact {
+    text-align: center;
+    background:
+        radial-gradient(circle at center, #172554 0%, #0b1120 60%);
+}
+
+.contact p {
+    color: #cbd5e1;
+    margin-bottom: 25px;
+}
+
+.linkedin-button {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    padding: 13px 28px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 25px;
+    border-top: 1px solid #1e293b;
+    color: #64748b;
+    font-size: 14px;
+}
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+
+    .nav-container {
+        justify-content: center;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .hero {
+        padding: 75px 20px 65px;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .hero h2 {
+        font-size: 18px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .section {
+        padding: 55px 0;
+    }
+
+    .section-title {
+        font-size: 28px;
+        margin-bottom: 35px;
+    }
+
+    .project {
+        padding: 20px;
+    }
+
+    .project h3 {
+        font-size: 23px;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .features {
+        grid-template-columns: 1fr;
+    }
+}
+
+</style>
+</head>
+
+
+<body>
+
+
+<!-- NAVIGATION -->
+
+<nav>
+
+<div class="nav-container">
+
+<div class="logo">
+Turki Aldalbahi
+</div>
+
+<div class="nav-links">
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#skills">Skills</a>
+<a href="#contact">Contact</a>
+</div>
+
+</div>
+
+</nav>
+
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Turki Aldalbahi</h1>
+
+<h2>
+Power BI | Business Analysis | Data Analytics | Project Management
+</h2>
+
+<p>
+PMP® Certified Project Manager with a background in Management
+Information Systems (MIS), with a focus on business analysis,
+project coordination, reporting, data analytics, and Power BI.
+</p>
+
+<div class="hero-buttons">
+
+<a href="#projects" class="button primary-button">
+View Projects
+</a>
+
+<a href="https://www.linkedin.com/in/turki-alotaibiii-" 
+target="_blank"
+class="button secondary-button">
+LinkedIn
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section class="section about" id="about">
+
+<div class="container">
+
+<h2 class="section-title">
+About Me
+</h2>
+
+<div class="about-box">
+
+<p>
+I am a PMP® Certified Project Manager with a Bachelor's degree
+in Management Information Systems (MIS). My professional interests
+focus on business analysis, project coordination, reporting,
+data analytics, and Power BI dashboard development.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- PROJECTS -->
+
+<section class="section" id="projects">
+
+<div class="container">
+
+<h2 class="section-title">
+Featured Projects
+</h2>
+
+<p class="section-subtitle">
+Selected Power BI projects demonstrating data analysis,
+visualization, and business intelligence skills.
+</p>
+
+
+<!-- PROJECT 1 -->
+
+<div class="project">
+
+<div class="project-header">
+
+<div class="project-number">
+Project 01
+</div>
+
+<h3>
+📊 Sales Analysis Dashboard
+</h3>
+
+<p class="project-description">
+A Power BI dashboard designed to analyze sales performance,
+products, sales representatives, shipments, costs, profitability,
+and market performance.
+</p>
+
+</div>
+
+
+<div class="gallery">
+
+<img src="IMG_3902.png"
+alt="Sales Analysis Dashboard">
+
+<img src="IMG_3903.png"
+alt="Sales Analysis Dashboard">
+
+<img src="IMG_3904.png"
+alt="Sales Analysis Dashboard">
+
+<img src="IMG_3905.png"
+alt="Sales Analysis Dashboard">
+
+</div>
+
+
+<h4 class="features-title">
+Key Features
+</h4>
+
+<div class="features">
+
+<div>Sales and profit analysis</div>
+
+<div>Product performance</div>
+
+<div>Sales representative performance</div>
+
+<div>Cost and shipment analysis</div>
+
+<div>Profit margin analysis</div>
+
+<div>Interactive filters and visuals</div>
+
+</div>
+
+
+<div class="tools">
+
+<strong>Tools & Skills:</strong>
+Microsoft Power BI, Power Query, DAX, Data Modeling,
+Data Visualization
+
+</div>
+
+
+<a
+href="https://app.powerbi.com/view?r=eyJrIjoiYjYyYTk4ZTUtZDdhNi00NmNhLTlhMWQtZWExNGM2OTkyOTE1IiwidCI6Ijc5MTAyMWJmLWYwZTUtNGQxMi1hYjJiLTg1OThmNzI4OTYxMiJ9"
+target="_blank"
+class="button primary-button">
+
+View Interactive Dashboard →
+
+</a>
+
+</div>
+
+
+<!-- PROJECT 2 -->
+
+<div class="project">
+
+<div class="project-header">
+
+<div class="project-number">
+Project 02
+</div>
+
+<h3>
+📋 Task Management Dashboard
+</h3>
+
+<p class="project-description">
+A Power BI dashboard designed to monitor task progress,
+team performance, task ownership, deadlines, and overdue activities.
+</p>
+
+</div>
+
+
+<div class="gallery">
+
+<img src="IMG_3734.png"
+alt="Task Management Dashboard">
+
+<img src="IMG_3735.png"
+alt="Task Management Dashboard">
+
+<img src="IMG_3736.png"
+alt="Task Management Dashboard">
+
+</div>
+
+
+<h4 class="features-title">
+Key Features
+</h4>
+
+<div class="features">
+
+<div>Total tasks overview</div>
+
+<div>Completed, In Progress & Not Started</div>
+
+<div>Overdue task tracking</div>
+
+<div>Tasks by team</div>
+
+<div>Tasks by task owner</div>
+
+<div>Start date, due date & duration analysis</div>
+
+<div>Interactive filters by status</div>
+
+<div>Conditional formatting</div>
+
+</div>
+
+
+<div class="tools">
+
+<strong>Tools & Skills:</strong>
+Microsoft Power BI, Power Query, DAX, Data Modeling,
+Data Visualization
+
+</div>
+
+
+<a
+href="https://app.powerbi.com/view?r=eyJrIjoiYjQ4Yzg4YzUtMDc3Zi00Y2M4LWI3ZDQtN2FhZTk4ZjFmMzdmIiwidCI6Ijc5MTAyMWJmLWYwZTUtNGQxMi1hYjJiLTg1OThmNzI4OTYxMiJ9"
+target="_blank"
+class="button primary-button">
+
+View Interactive Dashboard →
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- SKILLS -->
+
+<section class="section skills-section" id="skills">
+
+<div class="container">
+
+<h2 class="section-title">
+Skills & Tools
+</h2>
+
+<div class="skills">
+
+<span class="skill">Power BI</span>
+
+<span class="skill">Power Query</span>
+
+<span class="skill">DAX</span>
+
+<span class="skill">Data Modeling</span>
+
+<span class="skill">Data Visualization</span>
+
+<span class="skill">Business Analysis</span>
+
+<span class="skill">Project Management</span>
+
+<span class="skill">Project Coordination</span>
+
+<span class="skill">Reporting</span>
+
+<span class="skill">Management Information Systems</span>
+
+<span class="skill">PMP®</span>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section class="section contact" id="contact">
+
+<div class="container">
+
+<h2 class="section-title">
+Let's Connect
+</h2>
+
+<p>
+Interested in connecting or discussing professional opportunities?
+</p>
+
+<a
+href="https://www.linkedin.com/in/turki-alotaibiii-"
+target="_blank"
+class="linkedin-button">
+
+Connect on LinkedIn →
+
+</a>
+
+</div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+© 2026 Turki Aldalbahi | Power BI Portfolio
+
+</footer>
+
+
+</body>
+</html>
