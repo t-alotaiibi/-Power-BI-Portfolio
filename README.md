@@ -20,109 +20,85 @@ This portfolio showcases self-developed training projects created to demonstrate
 
 ### 01 — Sales Analysis Dashboard
 
-**Training Project • Self-Developed**
+A Power BI dashboard designed to analyze sales performance, products, sales representatives, shipments, costs, and profitability across different markets.
 
-An interactive Power BI dashboard designed to analyze sales performance, trends, products, profitability, costs, shipments, and time-based performance.
-
-**Key Analysis Areas**
-- Sales performance & KPI monitoring
-- Sales trends across different periods
+**Key Features:**
+- Sales and profit analysis
 - Product performance analysis
-- Profit and cost analysis
-- Shipment analysis
-- Interactive filtering and drill-down
-- DAX Time Intelligence
+- Sales representative performance
+- Cost and shipment analysis
+- Profit margin analysis
+- Interactive filters by market and product
+- Interactive Power BI dashboard
 
-**Tools & Skills**
+**Tools & Skills:**
+`Microsoft Power BI` `Power Query` `DAX` `Data Modeling` `Data Visualization`
 
-`Power BI` `Power Query` `DAX` `Time Intelligence` `Data Modeling` `Data Visualization`
+### Dashboard Preview
+
+![Sales Analysis Dashboard 1](IMG_3902.png)
+
+![Sales Analysis Dashboard 2](IMG_3903.png)
+
+![Sales Analysis Dashboard 3](IMG_3904.png)
+
+![Sales Analysis Dashboard 4](IMG_3905.png)
 
 ### 🔗 View Interactive Dashboard
 
-[**Open Sales Analysis Dashboard →**](https://app.powerbi.com/view?r=eyJrIjoiYjQ4Yzg4YzUtMDc3Zi00Y2M4LWI3ZDQtN2FhZTk4ZjFmMzdmIiwidCI6Ijc5MTAyMWJmLWYwZTUtNGQxMi1hYjJiLTg1OThmNzI4OTYxMiJ9)
+[Open Sales Analysis Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYjQ4Yzg4YzUtMDc3Zi00Y2M4LWI3ZDQtN2FhZTk4ZjFmMzdmIiwidCI6Ijc5MTAyMWJmLWYwZTUtNGQxMi1hYjJiLTg1OThmNzI4OTYxMiJ9)
 
 ---
 
 ### 02 — Task Management Dashboard
 
-**Training Project • Self-Developed**
+A Power BI dashboard designed to monitor task progress, team performance, task ownership, deadlines, and overdue activities.
 
-A management-oriented Power BI dashboard designed to monitor task workload, progress, ownership, deadlines, and overdue work.
-
-**Key Analysis Areas**
-- Total task overview
-- Completed, In Progress & Not Started tasks
-- Overdue task monitoring
+**Key Features:**
+- Total tasks overview
+- Completed, In Progress, and Not Started tasks
+- Overdue task tracking
 - Tasks by team
 - Tasks by task owner
-- Start Date, Due Date & Duration
-- Interactive filters
-- Conditional formatting for status and overdue tasks
+- Task start date and due date
+- Task duration analysis
+- Interactive filters by status, overdue, and month
+- Conditional formatting for task status and overdue tasks
 
-**Tools & Skills**
+**Tools & Skills:**
+`Microsoft Power BI` `Power Query` `DAX` `Data Modeling` `Data Visualization`
 
-`Power BI` `Power Query` `DAX` `Data Modeling` `Data Visualization` `Interactive Filters`
+### Dashboard Preview
+
+![Task Management Dashboard 1](IMG_3734.png)
+
+![Task Management Dashboard 2](IMG_3735.png)
+
+![Task Management Dashboard 3](IMG_3736.png)
 
 ### 🔗 View Interactive Dashboard
 
-[**Open Task Management Dashboard →**](https://app.powerbi.com/view?r=eyJrIjoiNWNkYzA4ZTctMTZmZi00OTBlLWFkZDMtNzQ4ODIzOGMwNmMxIiwidCI6Ijc5MTAyMWJmLWYwZTUtNGQxMi1hYjJiLTg1OThmNzI4OTYxMiJ9)
+[Open Task Management Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNWNkYzA4ZTctMTZmZi00OTBlLWFkZDMtNzQ4ODIzOGMwNmMxIiwidCI6Ijc5MTAyMWJmLWYwZTUtNGQxMi1hYjJiLTg1OThmNzI4OTYxMiJ9)
 
 ---
 
 ## 🛠️ Skills
 
-### Business Intelligence
 - Microsoft Power BI
 - Power Query
 - DAX
 - Data Modeling
 - Data Visualization
-- Interactive Reporting
-
-### Business & Project Management
 - Business Analysis
-- Project Coordination
+- Data Analytics
 - Project Management
-- Reporting & Data Analysis
-- Operational Analysis
-
----
-
-## 🎯 What These Projects Demonstrate
-
-- Translating business requirements into practical dashboards
-- Preparing, transforming, and modeling data
-- Developing analytical measures using DAX
-- Building interactive reports for business users
-- Presenting complex information in a clear format
-- Using data analytics to support business and operational improvement
-
----
-
-## 🎓 Certifications & Education
-
-**PMP® Certified Project Manager**
-
-**Bachelor of Business Administration (BBA)**  
-Management Information Systems (MIS)
-
----
-
-## 💼 Target Roles
-
-- Business Analyst
-- Business Development Specialist
-- Reporting / Data Analyst
-- MIS Specialist
-- PMO / Project Support
+- Project Coordination
+- Reporting
 
 ---
 
 ## 📫 Contact
 
-**LinkedIn:** [View my LinkedIn Profile](https://www.linkedin.com/in/turki-alotaibiii-)
+**LinkedIn:** [Turki Aldalbahi](https://www.linkedin.com/in/turki-alotaibiii-/)
 
 **Email:** [T.alotaiibi@gmail.com](mailto:T.alotaiibi@gmail.com)
----
-
-### ⭐ Thank you for visiting my portfolio!
